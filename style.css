@@ -1,0 +1,130 @@
+*,
+*::after,
+*::before {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  background-color: #090b1a;
+  padding: 3.6rem;
+}
+
+img {
+  width: 100%;
+}
+
+body {
+  font-family: Inter, sans-serif;
+  font-size: 1.5rem;
+  line-height: 1.6;
+  color: rgba(255, 255, 255, 0.7490196078);
+}
+
+.card__content-title {
+  font-size: 3.2rem;
+  color: #ffffff;
+  line-height: 1.2;
+  margin-bottom: 3rem;
+}
+@media (max-width: 992px) {
+  .card__content-title {
+    font-size: 4.2rem;
+  }
+}
+.card__content-title span {
+  color: #aa5cdb;
+}
+
+.card__content-discription {
+  margin-bottom: 6rem;
+}
+@media (max-width: 992px) {
+  .card__content-discription {
+    font-size: 2rem;
+  }
+}
+
+.card__stats-number {
+  font-size: 2rem;
+  color: #ffffff;
+  font-weight: 700;
+}
+@media (max-width: 992px) {
+  .card__stats-number {
+    font-size: 3rem;
+  }
+}
+.card__stats-label {
+  font-size: 1.2rem;
+  text-transform: uppercase;
+  color: rgba(255, 255, 255, 0.6);
+}
+@media (max-width: 992px) {
+  .card__stats-label {
+    font-size: 1.6rem;
+  }
+}
+
+.card {
+  display: flex;
+  flex-direction: row-reverse;
+  background-color: #1b1938;
+  max-width: 100rem;
+  border-radius: 5px;
+  overflow: hidden;
+}
+@media (max-width: 992px) {
+  .card {
+    flex-direction: column;
+    max-width: 50rem;
+  }
+}
+.card__img-box {
+  width: 50%;
+  background: linear-gradient(to right bottom, rgba(106, 45, 186, 0.4), rgba(106, 45, 186, 0.8)), url(../../images/image-header-desktop.jpg);
+  background-size: cover;
+  background-position: center;
+}
+@media (max-width: 992px) {
+  .card__img-box {
+    width: 100%;
+    height: 30rem;
+    background: linear-gradient(to right bottom, rgba(106, 45, 186, 0.4), rgba(106, 45, 186, 0.8)), url(../../images/image-header-mobile.jpg) no-repeat;
+    background-size: cover;
+  }
+}
+.card__content-box {
+  width: 50%;
+  padding: 5rem 7rem 4rem 5rem;
+}
+@media (max-width: 992px) {
+  .card__content-box {
+    width: 100%;
+    padding: 5rem;
+    text-align: center;
+  }
+}
+.card__stats-container {
+  display: flex;
+  align-items: center;
+  gap: 6rem;
+  margin-bottom: 0;
+}
+@media (max-width: 992px) {
+  .card__stats-container {
+    flex-direction: column;
+    gap: 3.6rem;
+  }
+}
+
+/*# sourceMappingURL=style.css.map */

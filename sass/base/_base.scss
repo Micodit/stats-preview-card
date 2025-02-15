@@ -1,0 +1,26 @@
+@use "./variables" as *;
+
+*,
+*::after,
+*::before {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  background-color: $color-very-dark-blue;
+  padding: 3.6rem;
+}
+
+img {
+  width: 100%;
+}
