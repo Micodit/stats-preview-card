@@ -29,7 +29,7 @@ Small screen
 
 ### Links
 
-- [Solution URL](https://www.frontendmentor.io/solutions/stats-preview-card-component-gkdulzaSbo)
+- [Solution URL](https://www.frontendmentor.io/solutions/stats-preview-card-component-Qc-eJe2Ml3)
 - [Live Site URL](https://micodit.github.io/stats-preview-card/)
 
 ### Built with
