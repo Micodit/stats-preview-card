@@ -40,7 +40,11 @@ Small screen
 
 ### What I learned
 
-I learnt how to use SASS, especially `@use` and `@forward` instead of `@import`. I also learnt how to organize SASS code using the 7-1 pattern architechture.
+- I learnt how to use SASS, especially `@use` and `@forward` instead of `@import`. I also learnt how to organize SASS code using the 7-1 pattern architechture.
+
+- I learnt that when writing relative path to an image or so in a SCSS file, I should think about where the compiled CSS will live because the URLs in SCSS files are copied into the compiled CSS as-is. So they are interpreted relative to the final CSS file's location. This means, I should plan my folder structure properly.
+
+- I learnt the difference between `background-blend-mode` and `mix-blend-mode` properties.
 
 ### Continued development
 
@@ -56,14 +60,3 @@ I also want to improve my ability of controlling images in my projects. Currentl
 
 - Github - [Micodit](https://github.com/Micodit)
 - Frontend Mentor - [Micodit](https://www.frontendmentor.io/profile/Micodit)
-  What specific areas of your project would you like help with? I couldn't give
-  the overlay on the image the exact look of the one in the mockup. Do you guys
-  have any ideas on how to achieve the same result? Also, would you give feedback
-  on my current solution? &**img-box { width: 50%; background: linear-gradient( to
-  right bottom, rgba($color-violet, 0.4), rgba($color-violet, 0.8) ),
-  url(../../images/image-header-desktop.jpg); background-size: cover;
-  background-position: center; } I also don't know how to insert a media query
-  using SASS so I just wrote the code right beneath the corresponding class. For
-  example .card**content-title { font-size: 3.2rem; color: $color-white;
-  line-height: 1.2; margin-bottom: 3rem; @media (max-width: $breakpoint-lg) {
-  font-size: 4.2rem; } Any ideas on how I should do it properly? Thank you all!
